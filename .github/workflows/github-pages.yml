@@ -7,9 +7,9 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
     - name: Install dependencies
-      run: npm i
+      run: yarn
     - name: Build
-      run: npm run build
+      run: yarn run build
     - name: Deploy
       if: github.ref == 'refs/heads/master'
       uses: peaceiris/actions-gh-pages@v3
