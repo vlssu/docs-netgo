@@ -1,0 +1,26 @@
+name: GitHub pages
+on: push
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+    - name: Install dependencies
+      run: yarn
+    - name: Build
+      run: yarn run build
+    - name: Deploy
+      if: github.ref == 'refs/heads/master'
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./build
+        cname: docs.natgo.cn
+    - name: 刷新缓存
+      uses: keithnull/tencent-cloud-cdn-purge-cache@v1.0
+      env:
+        SECRET_ID: ${{ secrets.QCLOUD_SECRET_ID}}
+        SECRET_KEY: ${{ secrets.QCLOUD_SECRET_KEY }}
+        PATHS: "https://docs.natgo.cn/"
+        FLUSH_TYPE: "flush" # optional
