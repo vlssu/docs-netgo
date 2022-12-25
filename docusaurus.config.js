@@ -38,7 +38,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/vlssu/docs-natgo/tree/master/docs/',
+            'https://github.com/vlssu/docs-natgo/tree/master/',
         },
         blog: false,
         // blog: {
@@ -46,7 +46,7 @@ const config = {
         //   // Please change this to your repo.
         //   // Remove this to remove the "edit this page" links.
         //   editUrl:
-        //     'https://github.com/vlssu/docs-natgo/tree/master/blog/',
+        //     'https://github.com/vlssu/docs-natgo/tree/master/ ',
         // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

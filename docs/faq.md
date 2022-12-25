@@ -33,7 +33,7 @@ sidebarDepth: 0
 ## 我的世界提示登录失败：无效的会话怎么办？
 > 因为服务端那边开启了正版验证
 
-![这里随便写什么，可以直接写步骤名](https://upload.cc/i1/2019/07/18/LCITS0.png)
+![这里随便写什么，可以直接写步骤名](img/faq-1.png)
 
 ## 怎么氪金？ 可以联系客服或通过淘宝链接购买 
 > 可以联系客服[【客服小超】](http://wpa.qq.com/msgrd?v=3&uin=672183160&site=qq&menu=yes)[【客服小伟】](http://wpa.qq.com/msgrd?v=3&uin=1666633881&site=qq&menu=yes) 或者通过淘宝连接[【淘宝店铺】](https://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-22409864018.2.67477092FAdx3v&id=611262672455)
