@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'vlssu', // Usually your GitHub org/user name.
-  projectName: 'docs-netgo', // Usually your repo name.
+  projectName: 'docs-natgo', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -38,7 +38,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/vlssu/docs-netgo/tree/master/docs/',
+            'https://github.com/vlssu/docs-natgo/tree/master/docs/',
         },
         blog: false,
         // blog: {
@@ -46,7 +46,7 @@ const config = {
         //   // Please change this to your repo.
         //   // Remove this to remove the "edit this page" links.
         //   editUrl:
-        //     'https://github.com/vlssu/docs-netgo/tree/master/blog/',
+        //     'https://github.com/vlssu/docs-natgo/tree/master/blog/',
         // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -73,7 +73,7 @@ const config = {
           // },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/vlssu/docs-netgo',
+            href: 'https://github.com/vlssu/docs-natgo',
             label: 'GitHub',
             position: 'right',
           },
@@ -113,7 +113,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} NetGO, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} NatGO, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
