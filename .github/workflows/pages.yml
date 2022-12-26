@@ -56,5 +56,5 @@ jobs:
       #   env:
       #     SECRET_ID: ${{ secrets.QCLOUD_SECRET_ID}}
       #     SECRET_KEY: ${{ secrets.QCLOUD_SECRET_KEY }}
-      #     PATHS: "https://docs.natgo.cn/"
+      #     PATHS: "https://docs.idc25.cn/"
       #     FLUSH_TYPE: "flush" # optional

@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'NetPlus使用手册',
   tagline: '啊哈，你没看错，这是NetPlus文档！',
-  url: 'https://docs.natgo.cn',
+  url: 'https://docs.idc25.cn',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'vlssu', // Usually your GitHub org/user name.
-  projectName: 'docs-natgo', // Usually your repo name.
+  projectName: 'docs-netplus', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -55,7 +55,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/vlssu/docs-natgo/tree/master/',
+            'https://github.com/vlssu/docs-netplus/tree/master/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
@@ -65,7 +65,7 @@ const config = {
         //   // Please change this to your repo.
         //   // Remove this to remove the "edit this page" links.
         //   editUrl:
-        //     'https://github.com/vlssu/docs-natgo/tree/master/ ',
+        //     'https://github.com/vlssu/docs-netplus/tree/master/ ',
         // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -92,7 +92,7 @@ const config = {
           // },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/vlssu/docs-natgo',
+            href: 'https://github.com/vlssu/docs-netplus',
             label: 'GitHub',
             position: 'right',
           },
@@ -132,7 +132,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} NatGO, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} NetPlus, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
