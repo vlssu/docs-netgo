@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '用户使用手册',
-  // tagline: '啊哈，你没看错，这是NetPlus文档！',
+  title: 'NetPlus使用手册',
+  tagline: '啊哈，你没看错，这是NetPlus文档！',
   url: 'https://docs.natgo.cn',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -24,7 +24,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans','en'],
+    locales: ['zh-Hans'],
   },
 
   themes: [
@@ -50,9 +50,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          // routeBasePath: '/', // 把文档放在网站根部
-          path: 'docs/netplus',
-          routeBasePath: 'netplus',
+          routeBasePath: '/', // 把文档放在网站根部
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -76,24 +74,11 @@ const config = {
     ],
   ],
 
-  plugins: [
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'natgo',
-        path: 'docs/natgo',
-        routeBasePath: 'natgo',
-        sidebarPath: require.resolve('./sidebars.js'),
-        // ……其他选项
-      },
-    ],
-  ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: '用户使用手册',
+        title: 'NetPLUS',
         // logo: {
         //   alt: 'My Site Logo',
         //   src: 'img/logo.svg',
@@ -106,8 +91,6 @@ const config = {
           //   label: '文档',
           // },
           // {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/netplus', label: 'NetPlus', position: 'left'},
-          {to: '/natgo', label: 'NatGO', position: 'left'},
           {
             href: 'https://github.com/vlssu/docs-natgo',
             label: 'GitHub',
@@ -143,7 +126,7 @@ const config = {
                 href: 'https://skin.vlssu.com',
               },
               {
-                label: 'VLssu公益服 - Minecraft',
+                label: 'VLssu公益服',
                 href: 'https://vlssu.cn/',
               },
             ],
@@ -152,7 +135,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} NatGO, Inc. Built with Docusaurus.`,
       },
       prism: {
-        theme: darkCodeTheme, // lightCodeTheme,
+        theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
     }),
