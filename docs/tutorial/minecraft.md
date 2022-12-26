@@ -6,7 +6,7 @@
 
 1. 首先进入皮肤站
 
-![An image](img/minecraft-1.png)
+![An image](img/minecraft-1.jpg)
 
 2. 进行注册
 
@@ -14,11 +14,11 @@
 
 **注意！！** 正版无需注册，直接输入正版账户就完成了注册（并且皮肤、ID都会帮你配置好）
 
-![An image](img/minecraft-2.png)
+![An image](img/minecraft-2.jpg)
 
 3. 你需要验证邮箱，否则你将无法使用账户
 
-![An image](img/minecraft-3.png)
+![An image](img/minecraft-3.jpg)
 
 4. 你的ID已在你注册时填写过了，你也可以按需求去皮肤库选皮肤或自己上传皮肤
 
