@@ -92,6 +92,11 @@ const config = {
           // },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
+            href: 'http://netplus.idc25.cn',
+            label: '返回官网',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/vlssu/docs-netplus',
             label: 'GitHub',
             position: 'right',
@@ -132,10 +137,10 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} NetPlus, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © 2019 - ${new Date().getFullYear()} NetPlus, Inc. Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
+        theme: darkCodeTheme, // lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
     }),
