@@ -19,7 +19,7 @@ import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
 > 包月畅想当月无限流量 及 最多四条映射
 
 ## 这个支持几个人呀
-> 没对人数做出限制，主要看服务器跟节点没什么关系
+> TCP协议当前单节点有五个连接额度（5连接数）
 
 ## 我的世界端口多少？
 > JAVA版默认端口25565   
@@ -44,7 +44,7 @@ import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
 > 可以参考[【此链接】](https://zhidao.baidu.com/question/1366465077364459979.html)
 
 ## 我的世界提示登录失败：无效的会话怎么办？
-> 因为服务端那边开启了正版验证
+> 因为服务端那边开启了正版验证、或者是联机时用户未使用正版用户登陆游戏，解决方法:1、服务端关闭正版验证功能 2、如果是联机、请确保联机的用户是正版用户或使用了外置登录功能 也可以安装相关联机mod关闭验证功能
 
 ![这里随便写什么，可以直接写步骤名](img/faq-1.png)
 
@@ -52,7 +52,7 @@ import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
 > 可以联系客服[【客服小超】](http://wpa.qq.com/msgrd?v=3&uin=672183160&site=qq&menu=yes)[【客服小伟】](http://wpa.qq.com/msgrd?v=3&uin=1666633881&site=qq&menu=yes) 或者通过淘宝连接[【淘宝店铺】](https://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-22409864018.2.67477092FAdx3v&id=611262672455)
 
 ## 新用户送的五元未到账? 
-> 可以联系客服提供邮箱补余额
+> 需要先实名认证才可以获取五元余额、如果实名认证后还没到账可以联系客服提供邮箱补余额（注:本余额不能作为包月等付费项目的购买）
 
 ## 我应该选那个节点更好? 
 > 根据您的地理位置决定 可以使用设置中的自动优选,来选择最适合您的节点
